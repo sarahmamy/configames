@@ -1,6 +1,6 @@
 # Configames
 
-![Congigames](TODO "Configames")
+![Configames](https://configames.vercel.app/og-image.png)
 
 Ce site vous offre un petit catalogue de jeux de société en ligne. Pour vos soirées entre amis sur Skype pendant le confinement.
 
