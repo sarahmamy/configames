@@ -25,13 +25,5 @@ export default () => (
       content="https://configames.vercel.app/og-image.png"
     />
     <meta name="twitter:card" content="summary_large_image"></meta>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X1P2TBCF36"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-X1P2TBCF36');
-</script>
   </Head>
 );
