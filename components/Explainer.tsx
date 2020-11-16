@@ -6,7 +6,7 @@ export default () => {
     <div className="font-monospace p-4 pt-8 text-gray-800 border-t-4 border-solid border-accent-500">
       <div className="w-10/12 max-w-5xl mx-auto text-center md:flex">
         <div className="flex-grow flex flex-col justify-center">
-          <Logo className="text-accent-500 my-4 lg:h-16 md:h-10 h-8 mx-auto"></Logo>
+          <Logo className="text-accent-500 my-4 lg:h-16 md:h-10 max-w-screen-sm mx-auto"></Logo>
           <p className="py-2">
             Jouez avec vos proches à distance !
             <br />

@@ -69,13 +69,11 @@ const Index = (props: IProps) => {
     <>
       <Meta />
       <Explainer />
-      {/* <RecentContent records={records} /> */}
-      {/* <AddContent /> */}
       <div className="flex lg:flex-row flex-col">
         <Filters filters={filters} setFilters={setFilters} />
         <Cards records={filteredRecords} />
       </div>
-      <div className="text-center pt-10 font-monospace text-gray-800">
+      <div className="text-center p-4 pt-10 font-monospace text-gray-800">
         Une idée de jeu à ajouter à cette liste ?
       </div>
       <AddContent />
