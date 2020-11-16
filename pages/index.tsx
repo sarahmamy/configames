@@ -47,7 +47,7 @@ const Index = (props: IProps) => {
       ...filters,
       ...themes,
     });
-  }, [records]);
+  }, [records.length]);
 
   // get all the filtered records depending on the filters
   useEffect(() => {
@@ -64,7 +64,7 @@ const Index = (props: IProps) => {
       setFilteredRecords(filtered);
     }
   }, [filters, records]);
-
+  console.log(filteredRecords);
   return (
     <>
       <Meta />

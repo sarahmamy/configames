@@ -8,9 +8,9 @@ interface IProps {
 
 export default (props: IProps) => {
   const [sorted, setSorted] = useState([]);
-
+  console.log(sorted);
   useEffect(() => {
-    if (sorted.length === 0) {
+    if (sorted.length !== props.records.length) {
       const tempSorted = sortBy(props.records, [
         (r) => {
           if (typeof window !== "undefined") {

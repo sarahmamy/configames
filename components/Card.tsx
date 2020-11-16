@@ -141,6 +141,7 @@ export default ({ record }: { record: IRecord }) => {
                 ["PC", "Tablette", "Téléphone"].map((device) => {
                   return (
                     <div
+                      key={device}
                       className="mr-2 text-gray-600 text-lg relative flex items-center justify-center"
                       title={device}
                     >
