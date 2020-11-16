@@ -88,7 +88,7 @@ export default ({ record }: { record: IRecord }) => {
           target="_blank"
           onClick={trackClick}
         >
-          <h1 className="text-center font-bold text-xl pb-3 text-gray-800 hover:text-gray-700">
+          <h1 className="text-center font-bold text-xl pb-3 text-gray-800 hover:text-teal-600">
             {record.Nom}
           </h1>
         </a>
@@ -128,7 +128,7 @@ export default ({ record }: { record: IRecord }) => {
                 rel="noopener noreferer"
                 target="_blank"
                 onClick={trackClick}
-                className="overflow-x-auto whitespace-no-wrap text-sm text-gray-600 hover:text-gray-500"
+                className="overflow-x-auto whitespace-no-wrap text-sm text-gray-600 hover:text-teal-500"
               >
                 {record["Lien"]}
               </a>

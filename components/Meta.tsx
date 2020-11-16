@@ -10,7 +10,6 @@ export default () => (
       property="og:description"
       content="Une liste de jeux en ligne entre amis pour le confinement"
     />
-    {/* update links TODO */}
     <meta
       property="og:image"
       content="https://configames.vercel.app/og-image.png"
@@ -26,5 +25,13 @@ export default () => (
       content="https://configames.vercel.app/og-image.png"
     />
     <meta name="twitter:card" content="summary_large_image"></meta>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X1P2TBCF36"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-X1P2TBCF36');
+</script>
   </Head>
 );
