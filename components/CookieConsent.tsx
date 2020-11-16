@@ -9,8 +9,8 @@ export default () => {
     return (
       <div className="px-4 py-3 fixed bottom-0 w-full bg-gray-200 shadow flex items-center">
         <div>
-          Nous utilisons des cookies pour mieux savoir comment ce site est
-          utilisé.
+          J'utilise des cookies pour savoir comment vous utilisez ce site, et
+          l'améliorer !
         </div>
         <div className="ml-5">
           <button
