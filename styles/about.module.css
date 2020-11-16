@@ -1,0 +1,15 @@
+.title {
+  @apply font-bold text-3xl pb-4 pt-8;
+}
+
+.p {
+  @apply py-2 leading-normal text-gray-800;
+}
+
+.ul {
+  @apply list-disc py-2;
+}
+
+.li {
+  @apply py-1;
+}

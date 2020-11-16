@@ -1,0 +1,45 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rehooks/component-size": "^1.0.3",
+    "@rehooks/local-storage": "^2.2.3",
+    "airtable": "^0.8.1",
+    "classnames": "^2.2.6",
+    "framer-motion": "^1.10.0",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.3.0",
+    "next-ga": "^2.3.4",
+    "postcss-import": "^12.0.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-ga": "^2.7.0",
+    "react-share": "^4.1.0",
+    "react-stickynode": "^2.1.1",
+    "swr": "^0.1.18"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.0",
+    "@types/node": "^13.1.1",
+    "@types/react": "^16.9.17",
+    "autoprefixer": "^9.7.3",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.8.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "postcss-loader": "^3.0.0",
+    "prettier": "^1.19.1",
+    "redux-devtools-extension": "^2.13.8",
+    "tailwindcss": "^1.1.4",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.7.4"
+  }
+}
