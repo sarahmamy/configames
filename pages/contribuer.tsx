@@ -8,10 +8,9 @@ export default () => (
     </a>
     <script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script>
     <iframe
-      class="airtable-embed airtable-dynamic-height"
+      className="airtable-embed airtable-dynamic-height"
       src="https://airtable.com/embed/shr1Q14FqRT01OxD7?backgroundColor=cyan"
-      frameborder="0"
-      onmousewheel=""
+      frameBorder="0"
       width="100%"
       height="2313"
     ></iframe>{" "}
