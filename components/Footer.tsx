@@ -14,7 +14,7 @@ const iconParams = {
 };
 
 export default () => (
-  <div className="pt-8">
+  <div className="pt-8 px-3">
     <div className="text-center font-monospace text-gray-800 pb-12">
       Une question ou suggestion d'amélioration ?{" "}
       <a
@@ -27,7 +27,7 @@ export default () => (
     </div>
     <div className="pt-10 pb-4 text-center text-gray-700">
       <p>
-        Fait avec ❤︎ en confinement by{" "}
+        Fait avec ♥ en confinement par{" "}
         <a
           className="underline text-gray-800 hover:text-teal-600"
           href="https://github.com/sarahmamy"
@@ -36,7 +36,7 @@ export default () => (
         </a>{" "}
         <a href="https://github.com/sarahmamy/configames">
           <img
-            className="h-4 w-4 ml-4 inline-block hover:opacity-75"
+            className="h-4 w-4 ml-2 inline-block hover:opacity-75"
             src="https://github.githubassets.com/favicons/favicon.svg"
           />
         </a>

@@ -7,7 +7,7 @@ export default () => {
     return null;
   } else {
     return (
-      <div className="px-4 py-3 fixed bottom-0 w-full bg-gray-200 shadow flex items-center">
+      <div className="px-4 py-3 z-50 fixed bottom-0 w-full bg-gray-200 shadow flex items-center text-xs md:text-base">
         <div>
           J'utilise des cookies pour savoir comment vous utilisez ce site, et
           l'améliorer !

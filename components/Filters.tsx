@@ -65,7 +65,7 @@ const DesktopFilters = ({ filters, setFilters }: IProps) => {
 const MobileFilters = ({ filters, setFilters }: IProps) => {
   return (
     <Sticky enabled={true} top="#header" className="z-50">
-      <div className="w-full px-12 flex overflow-x-scroll lg:text-md text-sm bg-gray-100 border-t border-b shadow-md">
+      <div className="w-full px-6 flex overflow-x-scroll lg:text-md text-sm bg-gray-100 border-t border-b shadow-md">
         {Object.keys(filters).map((k) => (
           <div
             className={classnames(
@@ -90,7 +90,7 @@ const MobileFilters = ({ filters, setFilters }: IProps) => {
       </div>
       <style jsx global>{`
         .sticky-inner-wrapper {
-          z-index: 50;
+          z-index: 20;
         }
       `}</style>
     </Sticky>
