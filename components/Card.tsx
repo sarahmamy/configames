@@ -14,7 +14,12 @@ export default ({ record }: { record: IRecord }) => {
   }
 
   const trackClick = () => {
-    logEvent("linkClick", record.Nom);
+    logEvent({
+      action: "linkClick",
+      category: "Records",
+      label: record.Nom,
+      value: 0,
+    });
   };
   const [currentlyLiked, setCurrentlyLiked] = useState(false);
 
@@ -25,7 +30,7 @@ export default ({ record }: { record: IRecord }) => {
   }, []);
 
   return (
-    <div className="z-0 shadow flex flex-col bg-white rounded hover:shadow-xl transition transition-all duration-300 hover:scale-105">
+    <div className="z-0 shadow flex flex-col bg-white rounded hover:shadow-xl transition-all duration-300 hover:scale-105">
       {/* Image */}
       <div
         className="relative w-full h-64 border-b border-gray-300 rounded-t"

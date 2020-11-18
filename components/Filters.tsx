@@ -50,7 +50,12 @@ const DesktopFilters = ({ filters, setFilters }: IProps) => {
                 setFilters({ ...filters, [k]: !filters[k] });
                 if (!filters[k]) {
                   // we're activating the filter
-                  logEvent("filterClick", k);
+                  logEvent({
+                    action: "filterClick",
+                    category: "Filters",
+                    label: k,
+                    value: 0,
+                  });
                 }
               }}
             >
@@ -80,7 +85,12 @@ const MobileFilters = ({ filters, setFilters }: IProps) => {
               setFilters({ ...filters, [k]: !filters[k] });
               if (!filters[k]) {
                 // we're activating the filter
-                logEvent("filterClick", k);
+                logEvent({
+                  action: "filterClick",
+                  category: "Filters",
+                  label: k,
+                  value: 0,
+                });
               }
             }}
           >
