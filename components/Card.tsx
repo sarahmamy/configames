@@ -102,7 +102,12 @@ export default ({ record }: { record: IRecord }) => {
           {record["Jeu original"] && record["Jeu original"] !== "//" && (
             <>
               <span className="mr-1">
-                {["Le jeu", "Un"][Math.floor(Math.random() * 2)]}{" "}
+                {/* Randomizing the wording */}
+                {
+                  ["Le jeu", "Un", "Une version du jeu"][
+                    record["Jeu original"].length % 3
+                  ]
+                }{" "}
                 <a
                   className={classnames("text-teal-600 font-semibold", {
                     "hover:text-teal-400":
